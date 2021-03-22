@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2115DBB234E1EBB0061096F /* myCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2115DBA234E1EBB0061096F /* myCustomButton.swift */; };
+		D21B3CC2232F2CFB00F76BCC /* myShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21B3CC1232F2CFB00F76BCC /* myShadowView.swift */; };
+		D287E5FE23F0767300A0DC6E /* brainCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287E5FD23F0767300A0DC6E /* brainCalculator.swift */; };
 		D2D4EDF42316ED1400449812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D4EDF32316ED1400449812 /* AppDelegate.swift */; };
 		D2D4EDF62316ED1400449812 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D4EDF52316ED1400449812 /* ViewController.swift */; };
 		D2D4EDF92316ED1400449812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D4EDF72316ED1400449812 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2115DBA234E1EBB0061096F /* myCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = myCustomButton.swift; path = /Users/yossef/Desktop/modern_calculator/modern_calculator/myCustomButton.swift; sourceTree = "<absolute>"; };
+		D21B3CC1232F2CFB00F76BCC /* myShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = myShadowView.swift; path = modern_calculator/myShadowView.swift; sourceTree = SOURCE_ROOT; };
+		D287E5FD23F0767300A0DC6E /* brainCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainCalculator.swift; sourceTree = "<group>"; };
 		D2D4EDF02316ED1400449812 /* modern_calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modern_calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D4EDF32316ED1400449812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2D4EDF52316ED1400449812 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,10 +105,13 @@
 			children = (
 				D2D4EDF32316ED1400449812 /* AppDelegate.swift */,
 				D2D4EDF52316ED1400449812 /* ViewController.swift */,
+				D2115DBA234E1EBB0061096F /* myCustomButton.swift */,
+				D21B3CC1232F2CFB00F76BCC /* myShadowView.swift */,
 				D2D4EDF72316ED1400449812 /* Main.storyboard */,
 				D2D4EDFA2316ED1600449812 /* Assets.xcassets */,
 				D2D4EDFC2316ED1600449812 /* LaunchScreen.storyboard */,
 				D2D4EDFF2316ED1600449812 /* Info.plist */,
+				D287E5FD23F0767300A0DC6E /* brainCalculator.swift */,
 			);
 			path = modern_calculator;
 			sourceTree = "<group>";
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21B3CC2232F2CFB00F76BCC /* myShadowView.swift in Sources */,
 				D2D4EDF62316ED1400449812 /* ViewController.swift in Sources */,
+				D287E5FE23F0767300A0DC6E /* brainCalculator.swift in Sources */,
+				D2115DBB234E1EBB0061096F /* myCustomButton.swift in Sources */,
 				D2D4EDF42316ED1400449812 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = modern_calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = modern_calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
